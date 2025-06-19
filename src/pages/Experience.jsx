@@ -1,4 +1,4 @@
-import { experiences } from '@/data/experiencedata.js';
+import { experiences } from '@/data/experienceData.js';
 import { FaCalendarAlt, FaMapMarkerAlt } from 'react-icons/fa';
 
 function Experience() {
