@@ -1,5 +1,4 @@
 import profileImage from '@/assets/profile.png';
-import LovedTech from "@/components/LovedTech.jsx";
 import BeyondTheCode from "@/components/BeyondTheCode.jsx";
 import DownloadCV from "@/components/DownloadCV.jsx";
 

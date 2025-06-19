@@ -23,24 +23,24 @@ import SoftSkills from "@/components/SoftSkills.jsx";
 
 function Skills() {
     const skills = [
-        { name: 'Python', icon: <FaPython />, note: 'ETL, scripting, APIs' },
-        { name: 'PHP', icon: <FaPhp />, note: 'Clean RESTful APIs' },
-        { name: 'JavaScript', icon: <FaJs />, note: 'Frontend dynamics & scripting' },
-        { name: 'React.js', icon: <FaReact />, note: 'Frontend experimentation' },
-        { name: 'Laravel', icon: <SiLaravel />, note: 'Fast backend scaffolding' },
-        { name: 'Flask', icon: <SiFlask />, note: 'Lightweight microservices' },
-        { name: 'HTML5', icon: <SiHtml5 />, note: 'Semantic structure' },
-        { name: 'CSS3', icon: <SiCss3 />, note: 'Responsive design styling' },
-        { name: 'MySQL', icon: <SiMysql />, note: 'Reliable relational database' },
-        { name: 'AWS (Lambda, SQS)', icon: <FaAws />, note: 'Serverless functions & queues' },
-        { name: 'Docker', icon: <FaDocker />, note: 'Isolated, repeatable environments' },
-        { name: 'Git', icon: <FaGit />, note: 'Version control confidence' },
-        { name: 'Linux (Ubuntu)', icon: <FaLinux />, note: 'Command-line efficiency' },
-        { name: 'Postman', icon: <SiPostman />, note: 'API testing powerhouse' },
-        { name: 'Jira', icon: <SiJira />, note: 'Agile project tracking' },
-        { name: 'jQuery', icon: <SiJquery />, note: 'DOM manipulation legacy' },
-        { name: 'Google Analytics', icon: <SiGoogleanalytics />, note: 'Web traffic insights' },
-        { name: 'Google NLP', icon: <span className="text-lg">🔍</span>, note: 'Language processing API' }
+        {name: 'Python', icon: <FaPython/>, note: 'ETL, scripting, APIs'},
+        {name: 'PHP', icon: <FaPhp/>, note: 'Clean RESTful APIs'},
+        {name: 'JavaScript', icon: <FaJs/>, note: 'Frontend dynamics & scripting'},
+        {name: 'React.js', icon: <FaReact/>, note: 'Frontend experimentation'},
+        {name: 'Laravel', icon: <SiLaravel/>, note: 'Fast backend scaffolding'},
+        {name: 'Flask', icon: <SiFlask/>, note: 'Lightweight microservices'},
+        {name: 'HTML5', icon: <SiHtml5/>, note: 'Semantic structure'},
+        {name: 'CSS3', icon: <SiCss3/>, note: 'Responsive design styling'},
+        {name: 'MySQL', icon: <SiMysql/>, note: 'Reliable relational database'},
+        {name: 'AWS (Lambda, SQS)', icon: <FaAws/>, note: 'Serverless functions & queues'},
+        {name: 'Docker', icon: <FaDocker/>, note: 'Isolated, repeatable environments'},
+        {name: 'Git', icon: <FaGit/>, note: 'Version control confidence'},
+        {name: 'Linux (Ubuntu)', icon: <FaLinux/>, note: 'Command-line efficiency'},
+        {name: 'Postman', icon: <SiPostman/>, note: 'API testing powerhouse'},
+        {name: 'Jira', icon: <SiJira/>, note: 'Agile project tracking'},
+        {name: 'jQuery', icon: <SiJquery/>, note: 'DOM manipulation legacy'},
+        {name: 'Google Analytics', icon: <SiGoogleanalytics/>, note: 'Web traffic insights'},
+        {name: 'Google NLP', icon: <span className="text-lg">🔍</span>, note: 'Language processing API'}
     ];
 
     return (
@@ -49,7 +49,8 @@ function Skills() {
                 <div className="max-w-6xl mx-auto text-center space-y-10">
                     <h2 className="text-4xl font-bold text-green-400">Skills</h2>
                     <p className="text-gray-400 max-w-3xl mx-auto text-sm">
-                        Here are the technologies and tools I have hands-on experience with, spanning backend development, cloud services, DevOps, and full-stack workflows.
+                        Here are the technologies and tools I have hands-on experience with, spanning backend
+                        development, cloud services, DevOps, and full-stack workflows.
                     </p>
 
                     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 pt-6">
@@ -69,7 +70,7 @@ function Skills() {
                 </div>
             </section>
 
-            <SoftSkills />
+            <SoftSkills/>
         </>
     );
 }
