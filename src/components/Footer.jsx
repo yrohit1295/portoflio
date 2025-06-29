@@ -1,4 +1,5 @@
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
+import { SiHackerrank } from 'react-icons/si';
 
 function Footer() {
     return (
@@ -42,6 +43,16 @@ function Footer() {
                         >
                             <FaEnvelope />
                         </a>
+                        <a
+                            href="https://www.hackerrank.com/profile/yrohit121"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-green-400 hover:scale-110 transform transition duration-200"
+                            aria-label="HackerRank"
+                        >
+                            <SiHackerrank />
+                        </a>
+
                     </div>
                 </div>
 
