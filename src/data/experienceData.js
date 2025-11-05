@@ -1,14 +1,5 @@
 export const experiences = [
     {
-        company: "Zenbundle",
-        role: "Senior Software Engineer",
-        period: "Aug 2025 – Present",
-        location: "Dublin, Ireland",
-        description: 
-            "Lead AI agent development and end-to-end feature delivery for Zenbundle’s SaaS platform. Designed and implemented scalable backend services using FastAPI and developed dynamic front-end interfaces with React.js and TypeScript. Built and optimized RESTful APIs and real-time data pipelines, ensuring performance, security, and maintainability. Architected and deployed cloud-native solutions using AWS, Docker, and Kubernetes. Designed and maintained PostgreSQL databases for high performance and scalability. Collaborated directly with the CTO to define technical direction, mentor junior engineers, and establish best practices. Integrated AI/ML-driven data enrichment and personalization features to enhance product intelligence and continuously improved CI/CD pipelines and developer workflows.",
-        techStack: ["FastAPI", "React.js", "TypeScript", "PostgreSQL", "Docker", "AWS", "Kubernetes", "MCP Server"]
-    },
-    {
         company: "Provident CRM",
         role: "Developer",
         period: "July 2022 – Nov 2024",
