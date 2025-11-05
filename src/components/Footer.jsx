@@ -10,8 +10,7 @@ function Footer() {
                 <div className="space-y-4 text-center md:text-left">
                     {/* Address */}
                     <div className="text-gray-400 space-y-1 text-sm">
-                        <div>12 The Boulevard</div>
-                        <div>Raynoldstown Village, Dundalk</div>
+                        <div>Dundalk</div>
                         <div>County Louth, Ireland</div>
                         <div>📞 +353 89 988 9055</div>
                     </div>
