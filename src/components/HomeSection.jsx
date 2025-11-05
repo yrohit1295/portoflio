@@ -21,7 +21,7 @@ function HomeSection() {
             <p className="text-green-400 text-lg md:text-xl font-semibold mb-6">
                 <Typewriter
                     words={[
-                        'Full Stack Software Engineer 👨‍💻',
+                        'Senior Software Engineer 👨‍💻',
                         'Backend Developer (PHP & Python)',
                         'ETL & SaaS Platform Builder',
                         'Mentor & Clean Code Champion',
@@ -37,7 +37,7 @@ function HomeSection() {
 
             {/* Description */}
             <p className="max-w-xl text-gray-400 mb-6 text-sm md:text-base">
-                Backend-focused engineer building secure APIs and automation pipelines for scalable cloud apps. Based in Dundalk, Ireland.
+                Backend-focused engineer building AI agents, secure APIs and automation pipelines for scalable cloud apps. Based in Dundalk, Ireland.
             </p>
 
             {/* CTA Buttons */}
