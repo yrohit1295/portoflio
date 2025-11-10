@@ -13,7 +13,7 @@ function AboutPage() {
                     <h2 className="text-3xl md:text-4xl font-bold text-green-400">About Me</h2>
 
                     <p className="text-gray-300 text-base md:text-lg leading-relaxed text-justify">
-                        I’m a backend-focused software engineer based in Dundalk, Ireland, with a strong foundation in building scalable SaaS platforms, automation pipelines, and RESTful APIs using PHP, Python, and JavaScript.
+                        I’m a senior software engineer based in Dundalk, Ireland, with a strong foundation in building AI agents, scalable SaaS platforms, automation pipelines, and RESTful APIs using PHP, Python, and JavaScript.
                     </p>
 
                     <p className="text-gray-300 text-base md:text-lg leading-relaxed text-justify">
