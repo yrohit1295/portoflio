@@ -7,9 +7,9 @@ function AboutPreview() {
                 <h2 className="text-3xl font-bold">About Me</h2>
 
                 <p className="text-base md:text-lg max-w-3xl mx-auto leading-relaxed">
-                    I’m a Full Stack Software Engineer based in Dundalk, Ireland, with over 8 years of experience
-                    building scalable SaaS platforms, secure APIs, and data-driven backend systems.
-                    I specialize in backend development using PHP (Laravel), Python (Flask), and MySQL,
+                    I’m a Senior Software Engineer based in Dundalk, Ireland, with over 8 years of experience
+                    building AI Agents, scalable SaaS platforms, secure APIs, and data-driven backend systems.
+                    I specialize in backend development using PHP (Laravel), Python (FastAPI, Flask), and MySQL,
                     with a strong focus on automation, clean code, and system optimization.
                 </p>
 
