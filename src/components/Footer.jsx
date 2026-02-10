@@ -1,5 +1,6 @@
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 import { SiHackerrank } from 'react-icons/si';
+import {trackEvent} from "@/lib/mixpanel.js";
 
 function Footer() {
     return (
@@ -23,6 +24,7 @@ function Footer() {
                             rel="noopener noreferrer"
                             className="hover:text-green-400 hover:scale-110 transform transition duration-200"
                             aria-label="LinkedIn"
+                            onClick={() => trackEvent("Social Link Click", { platform: "LinkedIn" })}
                         >
                             <FaLinkedin />
                         </a>
@@ -32,6 +34,7 @@ function Footer() {
                             rel="noopener noreferrer"
                             className="hover:text-green-400 hover:scale-110 transform transition duration-200"
                             aria-label="GitHub"
+                            onClick={() => trackEvent("Social Link Click", { platform: "GitHub" })}
                         >
                             <FaGithub />
                         </a>
@@ -39,6 +42,7 @@ function Footer() {
                             href="mailto:yrohit12@outlook.com"
                             className="hover:text-green-400 hover:scale-110 transform transition duration-200"
                             aria-label="Email"
+                            onClick={() => trackEvent("Social Link Click", { platform: "Email" })}
                         >
                             <FaEnvelope />
                         </a>
@@ -48,6 +52,7 @@ function Footer() {
                             rel="noopener noreferrer"
                             className="hover:text-green-400 hover:scale-110 transform transition duration-200"
                             aria-label="HackerRank"
+                            onClick={() => trackEvent("Social Link Click", { platform: "HackerRank" })}
                         >
                             <SiHackerrank />
                         </a>

@@ -9,6 +9,7 @@ import {
     FaTimesCircle,
     FaTimes
 } from 'react-icons/fa';
+import {trackEvent} from "@/lib/mixpanel.js";
 
 function Contact() {
     const [toast, setToast] = useState({ type: '', message: '' });
@@ -46,6 +47,7 @@ function Contact() {
 
             if (response.ok) {
                 form.reset();
+                trackEvent("Contact Form Submit");
                 showToast('success', 'Your message has been sent successfully!');
             } else {
                 throw new Error();

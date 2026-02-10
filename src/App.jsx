@@ -1,4 +1,5 @@
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {BrowserRouter, Routes, Route, useLocation} from "react-router-dom";
+import {useEffect} from "react";
 import Home from "@/pages/Home.jsx";
 import Header from "@/components/Header.jsx";
 import About from "@/pages/About.jsx";
@@ -12,6 +13,27 @@ import Certification from "@/pages/Certification.jsx";
 import Contact from "@/pages/Contact.jsx";
 import NotFound from "@/pages/NotFound.jsx";
 import ScrollToTop from "@/components/ScrollToTop.jsx";
+import {trackPageView} from "@/lib/mixpanel.js";
+
+const routeTitles = {
+    "/": "Home",
+    "/about": "About",
+    "/experience": "Experience",
+    "/skills": "Skills",
+    "/education": "Education",
+    "/projects": "Projects",
+    "/certifications": "Certifications",
+    "/contact": "Contact",
+};
+
+function PageViewTracker() {
+    const location = useLocation();
+    useEffect(() => {
+        const title = routeTitles[location.pathname] || "Not Found";
+        trackPageView(location.pathname, title);
+    }, [location.pathname]);
+    return null;
+}
 
 function App() {
     return (
@@ -19,6 +41,7 @@ function App() {
             <BrowserRouter>
                 <Header/>
                 <ScrollToTop />
+                <PageViewTracker />
                 <Routes>
                     <Route path="/" element={<Home/>}/>
                     <Route path="/about" element={<About/>}/>
